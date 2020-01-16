@@ -1,0 +1,29 @@
+Sun Classic VM
+    1.已淘汰，世界上第一款商用虚拟机
+    2.只能使用纯解释器的方式来执行java代码
+Exact VM
+    1.Exact Memory Management 准确式内存管理
+    2.采用编译器与解释器混合编译的方式以及两级即时编译来执行java代码
+    3.但是只在Solaris平台发布
+Hotspot VM
+    1.继承Sun Classic VM 和 Exact VM的优点
+    2.热点代码探测技术
+    3.延续至今，性能极佳
+KVM （kilobyte VM）
+    1.手机端运行的虚拟机
+JRockit VM （BEA公司  被Oracle收购了）
+    1.世界上最快的虚拟机
+    2.专注服务器端引用
+    3.具有垃圾回收器和MissionControl服务套件
+J9 VM （IBM公司）
+    1.多用途java虚拟机（服务器、客户端、移动设备...）
+Dalvik（没有遵循JVM规范）
+    1.运行于安卓平台的虚拟机
+Microsoft JVM
+    1.微软java虚拟机，兼容IE3的java引用程序
+Azul VM 和 Liquid VM
+    1.高性能java虚拟机
+    2.Liquid VM本身就带系统功能
+    3.Azul VM 运行于大型服务器（数十个cpu和上百G内存）
+Taobao VM
+    1.淘宝的java虚拟机
